@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Макет</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<header>
+		<div id="header">
+			<div>
+				<img id="logoImg" src="https://www.onlinerockershub.com/wp-content/uploads/2017/12/OnlineRockersHub-Circular-Logo-with-Transparent-Background.png" alt="лого">
+				<div id="logoCompany" class="fontCollor">
+					<h1>Название компании</h1>
+					<p>самая клевая компания</p>
+				</div>
+			</div>
+			<div id="phoneNumber">
+				<p>+7(495) 777-77-77</p>
+				<button id="callOrder">заказать звонок</button>
+					<!-- Скрытая форма -->
+				<div id="formContainer"><form>
+					<label for="name">Введите имя:</label>
+					<br/>
+					<input id="name" type="text" name="name">
+					<br/>
+					<label for="phone" >Введите телефон:</label>
+					<br/>
+					<input id="phone" type="text" name="phone" placeholder="8(555)555-55-55" required>
+					<br/>
+					<input id="submitBtn" type="submit">
+				</form>
+			</div>
+		</div>
+	</div>
+</header>
+	<nav>
+		<div>
+			<input id="menuBtn" type="button" value="Menu">
+			<ul>
+				<li><a href="#">Главная</a></li>
+				<li><a href="#">Каталог</a></li>
+				<li><a href="#">Доставка и оплата</a></li>
+				<li><a href="#">Прайс-лист</a></li>
+				<li><a href="#">Контакты</a></li>
+			</ul>
+		</div>
+	</nav>
+	<section id="mainImage">
+		<input id="prevImage" type="button" value="&#9668;">
+		<div></div>
+		<input id="nextImage" type="button" value="&#9658;">
+	</section>
+	<div id="container">
+		<aside id="news">
+			<h1 class="fontSize" id="newsBtn">Новости</h1>
+			<div class="newsCell">
+				<p>07 июня 2018 г.</p>
+				<p>Редизайн веб-сайта архитектурного бюро.</p>
+			</div>
+			<div class="newsCell">
+				<p>28 мая 2018 г.</p>
+				<p>Раскрутка интернет-магазина декоративных стикеров и виниловых наклеек.</p>
+			</div>
+			<div class="newsCell">
+				<p>14 мая 2018 г.</p>
+				<p>SEO-продвижение сайта поставщика дизель генераторов.</p>
+			</div>
+			<div class="newsCell">
+				<p>07 апреля 2018 г.</p>
+				<p>Поисковое продвижение  веб-сайта поставщика гидрооборудования.</p>
+			</div>
+			<div class="text-right">
+				<p><span class="underline">Архив новостей</span></p>
+			</div>
+		</aside>
+		<hr>
+		<main>
+			<article class="fontCollor">
+				<h1 class="fontSize">&laquo;Компания РУ ДИЗАЙН&raquo;</h1>
+				<p>Наша компания существует на рынке интернет технологий уже более 15 лет. Замысел нашей компании - Помогать частным лицам и организациям продавать товары и услуги через Интернет.</p>
+				<p>Нашими клиентами являются многие крупные организации из самых разных областей деятельности, от продажи сельскохозяйственной техники до банковского дела. Каждому клиенту гарантирован индивидуальный подход, с учетом специфики его деятельности. Штат компании постоянно расширяется, сотрудники проходят обучение.</p>
+				<p>Наша цель - предоставить клиенту максимально качественную услугу в минимальный срок.</p>
+			</article>
+		</main>
+	</div>
+	<footer>
+		<div id="footer">
+			<div>
+				<p>&copy; 2000-2018 ООО &laquo;Компания&raquo;</p>
+				<p>info@name.ru</p>
+			</div>
+			<div>
+				<ul>
+					<li><a href="#">Главная</a></li>
+					<li><a href="#">Каталог</a></li>
+					<li><a href="#">Доставка и оплата</a></li>
+					<li><a href="#">Прайс-лист</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>		
+			</div>
+			<div>
+				<p><span class="underline">Разработка сайта</span> - компания &laquo;РУ ДИЗАЙН&raquo;</p>
+			</div>
+		</div>
+	</footer>
+	<script src="js/jquery.js"></script>
+	<script src="js/mask.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>
